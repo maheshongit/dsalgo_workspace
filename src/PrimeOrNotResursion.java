@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find a given number is prime or not using recursion
+ */
 public class PrimeOrNotResursion {
 
     /**

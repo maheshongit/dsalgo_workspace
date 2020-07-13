@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find prime number between m to n using recursion
+ */
 public class PrimeNoSeries {
 
     /**
