@@ -9,7 +9,7 @@ public class PrimeOrNotResursion {
      * Find a given number is prime or not
      * Time-Complectiy: O(sqrt(n))
      * Space-Complexity: O(1) only one value as input
-     * @param n
+     * @param n given input number
      * @return
      */
     public boolean isPrime(int n, int i) {
@@ -27,6 +27,7 @@ public class PrimeOrNotResursion {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number:");
         int input = scanner.nextInt();
 
         PrimeOrNotResursion primeOrNotResursion = new PrimeOrNotResursion();
