@@ -11,23 +11,15 @@ public class OddOrEvenSeries {
      * @return
      */
     public void printOddEvenSeries(int start, int end) {
-        if (start <= 0 ) {
+        if (start <= 1 ) {
             System.out.println(start +" is not an odd or even");
-        } else if(start == 1) {
-            System.out.println(start + " is an odd number");
         } else if(start % 2 == 0) {
             System.out.println(start + " is an even number");
         } else {
             System.out.println(start + " is an odd number");
         }
 
-//        if(start == end) {
-//            return;
-//        } else {
-//            printOddEvenSeries(start + 1, end);
-//        }
-
-        if (start <= end) {
+        if (start < end) {
             printOddEvenSeries(start + 1, end);
         }
     }
