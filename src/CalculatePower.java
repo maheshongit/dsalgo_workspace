@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CalculatePower {
 
     /**
-     * Calculate the Power of given inputs a and such that a^b
+     * Calculate the Power of given inputs a and b such that a^b
      * Time-Complexity: O(b)
      * Space-Complexity: O(1)
      * @param a

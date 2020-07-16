@@ -5,8 +5,8 @@ public class FibonacciSeries {
 
     /**
      * Find the Fibonacci value upto n
-     * Time-Complectiy: O(n * 2^n)
-     * Space-Complexity: O(1)
+     * Time-Complectiy: O(n * 2^n) - all n values the Fibonacci is calculated (calculating nth Fibonacci is 2n)
+     * Space-Complexity: O(n) - new call stack is added for calculting each fibonacci input n
      * @param n
      * @return
      */
@@ -19,8 +19,8 @@ public class FibonacciSeries {
 
     /**
      * Print the Fibonacci value upto n
-     * Time-Complectiy: O(n+n) => O(n)
-     * Space-Complexity: O(1)
+     * Time-Complectiy: O(n+n) => O(n) - the first O(n) is for calculating and another O(n) for printing, so 2n, but drop the constant
+     * Space-Complexity: O(1) - n values are stored in the array
      * @param n
      * @return
      */
