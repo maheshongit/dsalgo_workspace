@@ -19,7 +19,7 @@ public class FibonacciSeries {
 
     /**
      * Print the Fibonacci value upto n
-     * Time-Complectiy: O(n^2)
+     * Time-Complectiy: O(n+n) => O(n)
      * Space-Complexity: O(1)
      * @param n
      * @return
